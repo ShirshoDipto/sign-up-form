@@ -4,7 +4,7 @@ const passwords = document.querySelector('.passwords');
 const errorMessage = document.querySelector('.errorMessage');
 
 
-function showErrorMessage(e) {
+function showErrorMessage() {
     if (password.value !== confirmPassword.value) {
         confirmPassword.classList.add('error');
         password.classList.add('error');

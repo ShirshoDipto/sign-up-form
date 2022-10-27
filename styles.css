@@ -11,14 +11,23 @@
     padding: 0px;
 }
 
-body {
+/* .whole-body {
+} */
+
+html {
+    display: flex;
+    flex-direction: column;
+}
+
+body{
     display: flex;
     font-family: sans-serif;
+    flex: 1;
 }
 
 .left, .right {
-    border: 2px solid black;
-    height: 100vh;
+    /* border: 2px solid black; */
+    /* height: 100vh; */
 }
 
 .left {
@@ -36,7 +45,7 @@ body {
 }
 
 .header, .main-form, .log-in {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex: auto;
     padding: 30px;
     padding-right: 200px;
@@ -50,6 +59,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     background: #eee;
+    height: 35vh;
 }
 
 .headerText {
@@ -114,8 +124,9 @@ label{
 
 input{
     border: thin solid #E5E7EB;
-    height: 20px;
+    height: 30px;
     border-radius: 3px;
+    padding-left: 10px;
 }
 
 input:focus{
@@ -133,15 +144,42 @@ input:invalid {
 
 }
 
+
+/* for error message */
 .error {
     border: 1px solid red;
 }
 
-/* input[type="password"] {
-    background-color: red;
-} */
-
 .errorMessage {
     color: red;
     font-size: small;
+}
+
+/* styling for log in section */
+.log-in {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #596D48;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #739654;
+}
+
+button:active {
+    background-color: #656c5f;
+}
+
+a {
+    color: #739654;
 }
