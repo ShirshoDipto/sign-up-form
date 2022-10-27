@@ -77,9 +77,6 @@ img {
     /* border: 2px solid red; */
 }
 
-.logoText {
-    /* border: 2px solid red; */
-}
 
 .main-form {
     display: flex;
@@ -134,4 +131,17 @@ input:focus:valid {
 input:invalid {
     border: 1px solid red;
 
+}
+
+.error {
+    border: 1px solid red;
+}
+
+/* input[type="password"] {
+    background-color: red;
+} */
+
+.errorMessage {
+    color: red;
+    font-size: small;
 }
