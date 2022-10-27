@@ -53,14 +53,16 @@ body {
 }
 
 .header {
-    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     background: #eee;
     line-height: 1.5;
+    padding-bottom: 50px;
+
 }
 
 .headerText {
