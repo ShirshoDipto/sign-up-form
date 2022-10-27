@@ -20,6 +20,7 @@ body {
     display: flex;
     font-family: sans-serif;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .left {
@@ -40,7 +41,7 @@ body {
     /* border: 2px solid black; */
     flex: auto;
     padding: 30px;
-    padding-right: 200px;
+    padding-right: 20%;
 }
 
 .credit{
